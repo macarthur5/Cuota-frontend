@@ -1,5 +1,12 @@
-import React from "react";
+import React, {FC} from "react";
+import List from "./list";
 
-const App: React.FC = () => <div>Hello world!</div>;
+const App: FC = () => {
+  return (
+    <div className="cuota-app">
+      <List />
+    </div>
+  );
+};
 
 export default App;

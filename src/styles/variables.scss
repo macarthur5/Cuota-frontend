@@ -1,0 +1,14 @@
+$gray0: rgb(242, 242, 242);
+$gray1: rgb(240, 240, 240);
+$gray2: rgb(210, 210, 210);
+$gray3: rgb(100, 100, 100);
+$gray4: rgb(50, 50, 50);
+$text1: rgb(40, 40, 40);
+
+$primary-color: #FFCA28;
+
+@mixin ellipsis(){
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
