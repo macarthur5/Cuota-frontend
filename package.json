@@ -8,7 +8,7 @@
   "private": false,
   "scripts": {
     "dev": "webpack serve",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production && cp ./dist/bundle.js ./../Cuota/static/bundle.js"
   },
   "dependencies": {
     "-": "^0.0.1",
